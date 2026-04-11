@@ -84,7 +84,7 @@ export function HeroSection() {
                 Ver Catálogo
               </Button>
               <a 
-                href="https://wa.me/573166100761"
+                href="https://wa.me/573054649599"
                 target="_blank"
                 rel="noopener noreferrer"
               >

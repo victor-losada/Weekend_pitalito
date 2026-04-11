@@ -12,10 +12,10 @@ export const BUSINESS_DESCRIPTION = "Tu sweet escape de café y matcha en Pitali
 
 // ============ NÚMEROS DE CONTACTO ============
 // Cambia estos números por los de tu negocio
-export const WHATSAPP_NUMBER = "573166100761" // Número principal (con código de país 57)
-export const PHONE_NUMBER_DISPLAY = "316 610 0761" // Cómo se muestra
-export const PHONE_NUMBER_2 = "313 309 0994" // Segundo número
-export const WHATSAPP_NUMBER_2 = "573133090994" // Segundo WhatsApp
+export const WHATSAPP_NUMBER = "573054649599" // Número principal (con código de país 57)
+export const PHONE_NUMBER_DISPLAY = "305 4649599" // Cómo se muestra
+export const PHONE_NUMBER_2 = "305 4649599" // Segundo número
+export const WHATSAPP_NUMBER_2 = "305 4649599" // Segundo WhatsApp
 
 // ============ UBICACIÓN ============
 // Cambia este link por la ubicación real de tu negocio en Google Maps

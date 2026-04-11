@@ -9,7 +9,7 @@ import {
   BUSINESS_ADDRESS,
   GOOGLE_MAPS_LINK
 } from '@/lib/config'
-import { Phone, MapPin, MessageCircle, Heart } from 'lucide-react'
+import { Phone, MapPin, MessageCircle, Heart, Mail } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -64,6 +64,15 @@ export function Footer() {
               >
                 <MapPin className="w-5 h-5" />
                 <span>{BUSINESS_ADDRESS}</span>
+              </a>
+              <a 
+                href="mailto:weekendcoffeematchachill@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 hover:text-primary transition-colors"
+              >
+                <Mail className="w-5 h-5" />
+                <span>weekendcoffeematchachill@gmail.com</span>
               </a>
             </div>
           </div>
