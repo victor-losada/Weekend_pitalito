@@ -13,6 +13,8 @@ export const BUSINESS_DESCRIPTION = "Tu sweet escape de café y matcha en Pitali
 // ============ NÚMEROS DE CONTACTO ============
 // Cambia estos números por los de tu negocio
 export const WHATSAPP_NUMBER = "573054649599" // Número principal (con código de país 57)
+/** Mensaje predeterminado al abrir WhatsApp desde el hero */
+export const WHATSAPP_HERO_MESSAGE = `¡Hola! Vi la web de ${BUSINESS_NAME} y quiero consultarles.`
 export const PHONE_NUMBER_DISPLAY = "305 4649599" // Cómo se muestra
 export const PHONE_NUMBER_2 = "305 4649599" // Segundo número
 export const WHATSAPP_NUMBER_2 = "305 4649599" // Segundo WhatsApp
