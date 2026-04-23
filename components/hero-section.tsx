@@ -1,6 +1,6 @@
 'use client'
 
-import { BUSINESS_NAME, BUSINESS_SLOGAN } from '@/lib/config'
+import { BUSINESS_NAME, BUSINESS_SLOGAN, generateWhatsAppLink, WHATSAPP_HERO_MESSAGE } from '@/lib/config'
 import { Button } from '@/components/ui/button'
 import { ChevronDown, ShoppingBag } from 'lucide-react'
 import Image from 'next/image'
@@ -84,7 +84,7 @@ export function HeroSection() {
                 Ver Catálogo
               </Button>
               <a 
-                href="https://wa.me/573054649599"
+                href={generateWhatsAppLink(WHATSAPP_HERO_MESSAGE)}
                 target="_blank"
                 rel="noopener noreferrer"
               >
